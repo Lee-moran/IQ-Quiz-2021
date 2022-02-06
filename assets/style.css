@@ -59,9 +59,33 @@ body.wrong {
     padding: 5px 10px;
     color: black;
     outline: none ;
-    background: linear-gradient(90deg, rgb(18, 92, 255)0%, rgb(0, 102, 255)110%);
+    background: linear-gradient(90deg, rgb(200, 18, 255)0%, rgb(247, 0, 255)110%);
 }
 
 .btn:hover{
     border-color: black ;
+}
+
+.btn.correct{
+background: greenyellow;
+}
+
+.btn.wrong{
+    background: red;
+}
+
+.start-btn, .next-btn{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.control-Pannel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
 }
