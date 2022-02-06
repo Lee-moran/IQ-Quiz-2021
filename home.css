@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rowdies&display=swap');
+
+body{
+    background-color: rgb(117, 115, 115);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Rowdies', 'Roboto';
+}
+
+h1 {
+    font-size: 84.6px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-size: 67px;
+    margin-bottom: 80px;
+}
+
+.Game-area {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn1 {
+    font-size: 38px;
+    padding: 32px 0;
+    width: 480px;
+    text-align: center;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: violet;
+    background: linear-gradient(90deg, rgb(18, 92, 255)0%, rgb(0, 102, 255)110%);
+}
+
+.btn1:hover{
+    cursor: pointer;
+    box-shadow: 0 4.6px 16px 0 rgba(244, 55, 8, 0.705);
+    transition: transform 150ms;
+    transform: scale(1.03);
+
+}
+
+.btn1[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+
+}
+
+#high-btn{
+    background:linear-gradient(90deg, rgb(33, 248, 122)0%, rgb(16, 243, 65)110%); 
+}
+
+#high-btn:hover{
+    box-shadow: 0 4.6px 16px 0 rgb(255, 255, 0);
+
+}
+.fas{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.far{
+    font-size: 30px;
+    margin-left: 5px;
+}
