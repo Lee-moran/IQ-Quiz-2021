@@ -1,47 +1,25 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/style.css">
+        <link rel="stylesheet" href="/home.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-        <title> Quiz </title>
+        <title> home </title>
     </head>
     <body>
-
-        <div class="box">
-            <div id="question-box" class="hide">
-                <div id="question"> Questions </div>
-                <div id="answer-btns" class="btn-layout">
-                    <button class="btn"> Answer 1 </button>
-                    <button class="btn"> Answer 2 </button>
-                    <button class="btn"> Answer 3 </button>
-                    <button class="btn"> Answer 4 </button>
-                </div>
+        <div class="Game-area">
+            <div id="home" class="flex-column flex-center">
+                <h1> Are You Ready? </h1>
+                <a href="/Play.html" class="btn1"> Play 
+                    <i class="far fa-play-circle"></i></a>
+                <a href="/highscore.html" id="high-btn" class="btn1"> High Score 
+                    <i class="fas fa-star"></i> </a>
             </div>
-
-            <div class="controll-Pannel">
-                <a href="/home.html">
-                    <button id="home-btn" class="btn-home btn"> Home </button>
-                </a>
-                <button id="start-btn" class="btn-start btn"> play </button>
-                <button id="next-btn" class="btn-next btn"> >> </button>
-            </div>
-    
-        
         </div>
-        <div id="scoreboard">
-            <p class="score"> Score: <span id="correct">0</span></p>
-        </div>
-
-       
-
-
-
-
         <script src="/assets/script.js"></script>
     </body>
     </html>

@@ -21,8 +21,8 @@ body{
     width: 100vw;
     height: 100vh;
     align-items: center;
-    /* background-color: aqua; */
-    background-color: hsl(var(--hue), 100%, 20%);
+    background-color: aqua;
+    /* background-color: hsl(var(--hue), 100%, 20%); */
 }
 
 body.correct {
@@ -38,7 +38,7 @@ body.wrong {
 .box{
     width: 800px;
     max-width: 80%;
-    background-color: aliceblue;
+    background-color: rgb(253, 249, 23);
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
@@ -60,6 +60,7 @@ body.wrong {
     color: black;
     outline: none ;
     background: linear-gradient(90deg, rgb(200, 18, 255)0%, rgb(247, 0, 255)110%);
+    font-size: 40px;
 }
 
 .btn:hover{
