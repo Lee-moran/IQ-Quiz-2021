@@ -40,7 +40,7 @@ body.wrong {
     max-width: 80%;
     background-color: rgb(253, 249, 23);
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 0 0 10px 2px;
 }
 
@@ -60,7 +60,7 @@ body.wrong {
     color: black;
     outline: none ;
     background: linear-gradient(90deg, rgb(200, 18, 255)0%, rgb(247, 0, 255)110%);
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .btn:hover{
@@ -75,18 +75,19 @@ background: greenyellow;
     background: red;
 }
 
-.start-btn, .next-btn{
+.start-btn, .next-btn {
     font-size: 16px;
     font-weight: bold;
     padding: 10px 20px;
 }
 
-.control-Pannel{
+.control-Pannel {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hide{
+.hide {
     display: none;
 }
+
