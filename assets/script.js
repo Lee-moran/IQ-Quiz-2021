@@ -61,6 +61,16 @@ function selectAnswer(e) {
         setStatusClass(button, button.dataset.correct)
     })
     nextButton.classList.remove('hide')
+    if (shuffledQuestions.lenght > currentQuestionIndex + 1) {
+        nextButton.classList.remove('hide')
+
+
+    } else {
+        startButton.innerText = 'Restart'
+        startButton.classList.remove('hide')
+
+    }
+    
     
 }
 
@@ -82,6 +92,132 @@ function clearStatusClass(element){
 const questions = [
     {
         question: 'what is 2 + 2?',
+        answers: [
+             {text: '4', correct: true},
+             {text: '22', correct: false},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 2 + 2?',
+        answers: [
+             {text: '4', correct: true},
+             {text: '22', correct: false},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 2 + 2?',
+        answers: [
+             {text: '4', correct: true},
+             {text: '22', correct: false},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 2 + 2?',
+        answers: [
+             {text: '4', correct: true},
+             {text: '22', correct: false},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 2 + 2?',
+        answers: [
+             {text: '4', correct: true},
+             {text: '22', correct: false},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 2 + 2?',
+        answers: [
+             {text: '4', correct: true},
+             {text: '22', correct: false},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 2 + 2?',
+        answers: [
+             {text: '4', correct: true},
+             {text: '22', correct: false},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 2 + 2?',
+        answers: [
+             {text: '4', correct: true},
+             {text: '22', correct: false},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 2 + 2?',
+        answers: [
+             {text: '4', correct: true},
+             {text: '22', correct: false},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 2 + 2?',
+        answers: [
+             {text: '4', correct: true},
+             {text: '22', correct: false},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 7 + 2?',
+        answers: [
+             {text: '4', correct: false},
+             {text: '22', correct: true},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 2 + 8?',
+        answers: [
+             {text: '4', correct: false},
+             {text: '22', correct: false},
+             {text: '2', correct: true},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 5 + 2?',
+        answers: [
+             {text: '4', correct: true},
+             {text: '22', correct: false},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 2 + 4?',
+        answers: [
+             {text: '4', correct: true},
+             {text: '22', correct: false},
+             {text: '2', correct: false},
+             {text: '-2', correct: false} 
+        ]
+    },
+    {
+        question: 'what is 1 + 2?',
         answers: [
              {text: '4', correct: true},
              {text: '22', correct: false},
