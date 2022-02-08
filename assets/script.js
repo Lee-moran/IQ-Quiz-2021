@@ -83,6 +83,7 @@ function setStatusClass(element, correct) {
     clearStatusClass(element)
     if (correct) {
         element.classList.add('correct')
+        incrementScore()
     } else {
         element.classList.add('wrong')
     }
@@ -92,6 +93,8 @@ function incrementScore() {
     let oldScore = parseInt(document.getElementById('correct').innerText);
     document.getElementById('correct').innerText = ++oldScore;
 }
+
+
 
 
 function clearStatusClass(element){
