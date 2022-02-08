@@ -2,14 +2,14 @@
 
 *,*::before, *::after {
     box-sizing: border-box;
-    font-family:'Roboto', 'Orbitron';
+    font-family:'Orbitron',sans-serif;
 }
 
 h1{
     position: fixed;
     top: 25px;
     font-size: 70px;
-    font-family:'Orbitron', 'Roboto';
+    font-family:'Orbitron',sans-serif;
     font-size: 84px;
     color: white;
 }
@@ -73,7 +73,7 @@ body.wrong {
 
     font-size: 25px;
     font-weight: bold;
-    font-family:'Orbitron';
+    font-family:'Orbitron', sans-serif;
     padding: 10px;
     width: 250px;
     text-align: center;

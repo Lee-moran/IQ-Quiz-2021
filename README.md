@@ -24,12 +24,15 @@ Score area:
 
 Design choices:
 Typography:
-The fonts chosen were inspiered by tron 'Orbitron' for the headings and Roboto' for the text. They fall back to sans-serif respectively.
+The fonts chosen were inspiered by tron 'Orbitron' for the main game. using the one across the quiz. They fall back to sans-serif respectively.
 
-'teko' was chosen for the headings to give the user an inital welcoming feel. The strong style generally feels more sturdy and standouts. 'Lato' is used for the body text as it provides a nice contrast to the teko whilst being easy to read for all.
+'Orbitron' was chosen for the game to give the user an inital welcoming feel. The retro vibe of the front give off an old school game vibe, evoking  nolstalgic feeling.
+
 
 Colour Scheme:
-The colour scheme eventually chosen is one based on grey and off-white. The colour contrasts with a modern feel and complementary to many of the images. Giving the page a modern feel.
+- The colour scheme chosen is one based on colors of IQ, calming, relaxing. 
+- Using a plate that that blends well together. A balance between colors.
+- Giving the page a modern yet retro feel. 
 
 
 testing 
