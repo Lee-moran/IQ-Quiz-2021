@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rowdies&display=swap');
 
 body{
-    background-color: rgb(117, 115, 115);
+    background-color: rgb(47, 69, 92);
 }
 
 * {
@@ -64,13 +64,13 @@ h2 {
     margin-bottom: 16px;
     margin-top: 10px;
     text-decoration: none;
-    color: violet;
-    background: linear-gradient(90deg, rgb(18, 92, 255)0%, rgb(0, 102, 255)110%);
+    color: rgb(14, 13, 14);
+    background: linear-gradient(90deg, rgb(52, 245, 197)0%, rgb(0, 102, 255)110%);
 }
 
 .btn1:hover{
     cursor: pointer;
-    box-shadow: 0 4.6px 16px 0 rgba(244, 55, 8, 0.705);
+    box-shadow: 0 4.6px 16px 0 rgb(255, 251, 0);
     transition: transform 150ms;
     transform: scale(1.03);
 
