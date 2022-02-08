@@ -1,7 +1,7 @@
 const startButton = document.getElementById('start-btn')
 const questionBoxElement = document.getElementById('question-box')
 const questionElement = document.getElementById('question')
-const answerButtonElement = document.getElementById('answer-btn')
+const answerButtonsElement = document.getElementById('answer-btns')
 
 
 let shuffledQuestions, currentQuestionIndex
@@ -24,18 +24,28 @@ function setNextQuestion() {
 }
 
 function showQuestion(question) {
-    questionElement.innerText = question.question
+    questionElement.innerText = question.question;
+    question.answers.forEach(answer => {
+        const button = document.createElement('button');
+        button.innerText = answer.text;
+        button.classList.add('btn');
+        if (answer.correct){
+            button.dataset.correct = answer.correct;
+        }
+        button.addEventListener('click', selectAnswer);
+        answerButtonsElement.appendChild(button);
+    })
 
 }
 
-function selectAnswer() {
+function selectAnswer(e) {
 
 }
 
 const questions = [
     {
-        question: 'what is 2 + 2',
-        answer: [
+        question: 'what is 2 + 2?',
+        answers: [
              {text: '4', correct: true},
              {text: '22', correct: false},
              {text: '2', correct: false},
