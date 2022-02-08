@@ -48,6 +48,7 @@ function showQuestion(question) {
 
 function resetState(){
     nextButton.classList.add('hide')
+    homeButton.classList.add('hide')
     while (answerButtonsElement.firstChild) {
         answerButtonsElement.removeChild
         (answerButtonsElement.firstChild)
@@ -63,6 +64,8 @@ function selectAnswer(e) {
         setStatusClass(button, button.dataset.correct)
     })
     nextButton.classList.remove('hide')
+    homeButton.classList.remove('hide')
+    
     if (shuffledQuestions.lenght > currentQuestionIndex + 1) {
         nextButton.classList.remove('hide')
 
@@ -83,6 +86,11 @@ function setStatusClass(element, correct) {
     } else {
         element.classList.add('wrong')
     }
+}
+
+function incrementScore() {
+    let oldScore = parseInt(document.getElementById('correct').innerText);
+    document.getElementById('correct').innerText = ++oldScore;
 }
 
 
