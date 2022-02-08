@@ -94,6 +94,13 @@ function incrementScore() {
     document.getElementById('correct').innerText = ++oldScore;
 }
 
+function incrementWrongAnswer() {
+
+    let oldScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++oldScore;
+    
+}
+
 
 
 

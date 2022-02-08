@@ -9,7 +9,7 @@ h1{
     position: fixed;
     top: 25px;
     font-size: 70px;
-    font-family:'Orbitron';
+    font-family:'Orbitron', 'Roboto';
     font-size: 84px;
     color: white;
 }
@@ -57,7 +57,7 @@ body.wrong {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .btn{
@@ -73,15 +73,16 @@ body.wrong {
 
     font-size: 25px;
     font-weight: bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px 0;
+    font-family:'Orbitron';
+    padding: 10px;
     width: 250px;
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
     text-decoration: none;
     color: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgb(29, 205, 254)0%, rgb(29, 205, 254)110%);
     border-radius: 5px;
+    
 }
 
 .btn:hover{
@@ -119,7 +120,9 @@ background: greenyellow;
     font-size: 30px;
 
 }
-
+#question{
+    font-family:sans-serif;
+}
 
 
 
