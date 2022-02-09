@@ -116,6 +116,17 @@ footer {
 }
 
 
+@media screen and (max-width:600px) {
+    
+    
+    .Game-area {
+        width: 50%;
+    }
+    
+
+}
+
+
 
 
 

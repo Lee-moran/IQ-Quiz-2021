@@ -127,5 +127,40 @@ background: greenyellow;
     font-family:sans-serif;
 }
 
+@media screen and (max-width:800px) {
+    h1 {
+        font-size: 65px;
+        top: 40px;
+    }
+}
 
+@media screen and (max-width:600px) {
+    .box{
+        width: fit-content;
+        height: fit-content;
+    }
+    .btn {
+        font-size: 20px;
+        width: 180px;
+    }
+    h1 {
+        font-size: 50px;
+        top: 40px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .box{
+        width: fit-content;
+        height: fit-content;
+    }
+    .btn {
+        font-size: 20px;
+        width: 130px;
+    }
+    h1 {
+        font-size: 50px;
+        top: 40px;
+    }
+}
 
