@@ -6,73 +6,73 @@ const answerButtonsElement = document.getElementById('answer-btns');
 const homeButton = document.getElementById('home-btn');
 
 
-let shuffledQuestions, currentQuestionIndex;
+let shuffledQuestions, currentQuestionIndex
 
 
 startButton.addEventListener('click', startGame);
 nextButton.addEventListener('click', () => {
-    currentQuestionIndex++;
-    setNextQuestion();
+    currentQuestionIndex++
+    setNextQuestion()
 });
 
 function startGame() {
-    console.log('started');
-    startButton.classList.add('hide');
-    homeButton.classList.add('hide');
-    shuffledQuestions = questions.sort(() => Math.random() - .5);
-    currentQuestionIndex = 0; 
-    questionBoxElement.classList.remove('hide');
-    setNextQuestion();
+    console.log('started')
+    startButton.classList.add('hide')
+    homeButton.classList.add('hide')
+    shuffledQuestions = questions.sort(() => Math.random() - .5)
+    currentQuestionIndex = 0
+    questionBoxElement.classList.remove('hide')
+    setNextQuestion()
 
 }
 
 function setNextQuestion() {
-    resetState();
-    showQuestion(shuffledQuestions[currentQuestionIndex]);
+    resetState()
+    showQuestion(shuffledQuestions[currentQuestionIndex])
 }
 
 function showQuestion(question) {
-    questionElement.innerText = question.question;
+    questionElement.innerText = question.question
     question.answers.forEach(answer => {
-        const button = document.createElement('button');
-        button.innerText = answer.text;
-        button.classList.add('btn');
+        const button = document.createElement('button')
+        button.innerText = answer.text
+        button.classList.add('btn')
         if (answer.correct){
-            button.dataset.correct = answer.correct;
+            button.dataset.correct = answer.correct
         }
-        button.addEventListener('click', selectAnswer);
-        answerButtonsElement.appendChild(button);
+        button.addEventListener('click', selectAnswer)
+        answerButtonsElement.appendChild(button)
     });
 
 }
 
 function resetState(){
-    nextButton.classList.add('hide');
-    homeButton.classList.add('hide');
+    nextButton.classList.add('hide')
+    homeButton.classList.add('hide')
     while (answerButtonsElement.firstChild) {
-        answerButtonsElement.removeChild;
-        (answerButtonsElement.firstChild);
+        answerButtonsElement.removeChild
+        (answerButtonsElement.firstChild)
     }
 
 }
 
 function selectAnswer(e) {
-    const selectedButton = e.target;
-    const correct = selectedButton.dataset.correct;
-    setStatusClass(document.body, correct);
+    const selectedButton = e.target
+    const correct = selectedButton.dataset.correct
+    setStatusClass(document.body, correct)
     Array.from(answerButtonsElement.children).forEach(button => {
-        setStatusClass(button, button.dataset.correct);
+        setStatusClass(button, button.dataset.correct)
     });
-    nextButton.classList.remove('hide');
-    homeButton.classList.remove('hide');
+    nextButton.classList.remove('hide')
+    homeButton.classList.remove('hide')
     
     if (shuffledQuestions.lenght > currentQuestionIndex + 1) {
-        nextButton.classList.remove('hide');
+        nextButton.classList.remove('hide')
 
 
     } else {
-        startButton.innerText = 'Restart';
-        startButton.classList.remove('hide');
+        startButton.innerText = 'Restart'
+        startButton.classList.remove('hide')
 
     }
     
@@ -80,24 +80,24 @@ function selectAnswer(e) {
 }
 
 function setStatusClass(element, correct) {
-    clearStatusClass(element);
+    clearStatusClass(element)
     if (correct) {
-        element.classList.add('correct');
-        incrementScore();
+        element.classList.add('correct')
+        incrementScore()
     } else {
-        element.classList.add('wrong');
+        element.classList.add('wrong')
     }
 }
 
 function incrementScore() {
-    let oldScore = parseInt(document.getElementById('correct').innerText);
-    document.getElementById('correct').innerText = ++oldScore;
+    let oldScore = parseInt(document.getElementById('correct').innerText)
+    document.getElementById('correct').innerText = ++oldScore
 }
 
 function incrementWrongAnswer() {
 
-    let oldScore = parseInt(document.getElementById("incorrect").innerText);
-    document.getElementById("incorrect").innerText = ++oldScore;
+    let oldScore = parseInt(document.getElementById("incorrect").innerText)
+    document.getElementById("incorrect").innerText = ++oldScore
     
 }
 
@@ -105,8 +105,8 @@ function incrementWrongAnswer() {
 
 
 function clearStatusClass(element){
-    element.classList.remove('correct');
-    element.classList.remove('wrong');
+    element.classList.remove('correct')
+    element.classList.remove('wrong')
 
 }
 
@@ -247,4 +247,4 @@ const questions = [
              {text: 'Eatting', correct: true} 
         ]
     }
-];
+]
