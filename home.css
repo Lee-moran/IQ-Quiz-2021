@@ -98,3 +98,23 @@ h2 {
     color: azure;
 }
 
+footer {
+    margin-top: auto;
+    background-color: rgba(43, 43, 42, 0.6);
+}
+
+
+ a {
+    color: #dba622;
+    font-size: 65px;
+    margin-inline-end: 10px;
+    padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
