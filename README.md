@@ -34,6 +34,10 @@ Total of 15 question, high score of 30.
 
 <img width="802" alt="score" src="https://user-images.githubusercontent.com/92300148/153252857-9cfb8960-7a95-4309-add8-57ca36764326.png">
 
+# Footer:
+- Contains links to personal information.
+- Provides a link to Reference material.
+
 
 # Design choices:
 ## Typography:
