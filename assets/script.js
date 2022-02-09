@@ -3,7 +3,6 @@ const nextButton = document.getElementById('next-btn')
 const questionBoxElement = document.getElementById('question-box')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-btns')
-const homeButton = document.getElementById('home-btn')
 
 
 let shuffledQuestions, currentQuestionIndex;

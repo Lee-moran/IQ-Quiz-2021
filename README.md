@@ -33,9 +33,11 @@ Colour Scheme:
 - The colour scheme chosen is one based on colors of IQ, calming, relaxing. 
 - Using a plate that that blends well together. A balance between colors.
 - Giving the page a modern yet retro feel. 
+<img width="942" alt="ColourWay" src="https://user-images.githubusercontent.com/92300148/153240913-0db5cb2b-ac4f-4584-9c8a-e3781801fcaf.png">
 
 
-testing 
+
+Testing:
 
 validator testing 
 - HTML
@@ -45,13 +47,14 @@ No errors were found when passing through the official (Jigsaw) validator
 - JavaScript
 No errors were found when passing through the official Jshint validator
 The following metrics were returned:
-There are 11 functions in this file.
-Function with the largest signature takes 2 arguments, while the median is 0.
-Largest function has 10 statements in it, while the median is 3.
-The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+Metrics
+There are 14 functions in this file.
+Function with the largest signature take 2 arguments, while the median is 0.
+Largest function has 9 statements in it, while the median is 2.
+The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
 Unfixed Bugs
- Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
