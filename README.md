@@ -1,6 +1,6 @@
  Test Your IQ is a site that hopes to demonstrate how pure javasScript works in the real-worl context. The site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also there integelence. IQ test is a fully responsive JavsScript quiz that will allow user, to answer questions with the supllied buttons.
 
-screen shoot on all devices 
+<img width="1273" alt="responsive" src="https://user-images.githubusercontent.com/92300148/153268598-e3c3deb3-f574-45b6-ad61-94ec226d9e02.png">
 
 # Wirerframe 
 
