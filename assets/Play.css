@@ -164,3 +164,18 @@ background: greenyellow;
     }
 }
 
+@media screen and (max-width:450px) {
+    .box{
+        width: fit-content;
+        height: fit-content;
+    }
+    .btn {
+        font-size: 20px;
+        width: 130px;
+    }
+    h1 {
+        font-size: 35px;
+        top: 40px;
+    }
+}
+

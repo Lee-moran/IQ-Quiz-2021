@@ -116,15 +116,31 @@ footer {
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:750px) {
     
     
-    .Game-area {
-        width: 50%;
-    }
+   h1{
+       font-size: 60px;
+   }
+   .btn1{
+       width: 320px;
+   }
     
 
 }
+
+@media screen and (max-width:600px) {
+    
+    
+    h1{
+        font-size: 40px;
+    }
+    .btn1{
+        width: 220px;
+    }
+     
+ 
+ }
 
 
 
