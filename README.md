@@ -3,13 +3,14 @@
 screen shoot on all devices 
 
 Home Page
-- Consists of a question, 2 buttons and a logo
-- featured in the center of the page,logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the home page of the game.
-- user is hit with a queation "are you ready?"
-- invites the user to either go ahead and play the game .
-- or the user and view the inscruction and see what the game is about first.
+- Consists of a question, 2 buttons and a logo(brian)
+- Featured in the center of the page,logo and heading is easy to see for the user. Upon viewing the      page, the user will be able to see the home page of the game.
+- User is hit with a queation "are you ready?"
+- Invites the user to either go ahead and play the game
+- Or the user and view the inscruction and see what the game is about first.
 
-screenshot homepage 
+<img width="933" alt="HomePage" src="https://user-images.githubusercontent.com/92300148/153251431-3ebb5a70-3278-42af-9945-2b39df85832c.png">
+
 
 Game Area
 - This section will allow the user to play attept the quiz. The user will be able to easily see icons to start the game.
@@ -18,15 +19,24 @@ Game Area
 - The user will be able answer the questions in the boxs provide
 - Submit their answer when its selected and if correct it will idenity as green and like wise for wrong.
 
-game area with question image 
+<img width="917" alt="Start Game" src="https://user-images.githubusercontent.com/92300148/153251803-34fa87a3-c5c9-42b3-86aa-9360df6b6b04.png">
+
+<img width="948" alt="First Question" src="https://user-images.githubusercontent.com/92300148/153251989-9ca96d6e-9be4-45a8-872f-65c14833b29d.png">
 
 Score area:
+Give the play 2 points for the correct answer and 1 for the wrong answer.
+Total of 15 question, high score of 30.
+
+<img width="802" alt="score" src="https://user-images.githubusercontent.com/92300148/153252857-9cfb8960-7a95-4309-add8-57ca36764326.png">
+
 
 Design choices:
 Typography:
 The fonts chosen were inspiered by tron 'Orbitron' for the main game. using the one across the quiz. They fall back to sans-serif respectively.
 
 'Orbitron'  geometric sans-serif typeface intended for display purposes, was chosen for the game to give the user an inital welcoming feel. The retro vibe of the front give off an old school game vibe, evoking  nolstalgic feeling.
+
+<img width="578" alt="Font" src="https://user-images.githubusercontent.com/92300148/153253293-92f94ec8-20b2-48f3-8999-784ae3d83ce1.png">
 
 
 Colour Scheme:
@@ -69,6 +79,7 @@ Credits
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
+
 
 Content
 The text for the Home page was taken from Wikipedia Article A
