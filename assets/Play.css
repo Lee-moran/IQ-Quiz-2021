@@ -46,11 +46,14 @@ body.wrong {
 .box{
     width: 800px;
     max-width: 80%;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     padding: 15px;
-    box-shadow: 0 0 10px 2px;
     background: linear-gradient(90deg, rgb(52, 245, 197)0%, rgb(0, 102, 255)110%);
     position: relative;
+}
+
+.box:hover{
+    box-shadow: yellow 0 0 10px 2px;
 }
 
 .btn-layout{

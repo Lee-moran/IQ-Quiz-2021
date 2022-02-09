@@ -15,6 +15,9 @@ nextButton.addEventListener('click', () => {
     setNextQuestion();
 });
 
+// Start Game, hide button and away we go 
+// randomly mixing up the questions everytime 
+
 function startGame() {
     startButton.classList.add('hide');
     shuffledQuestions = questions.sort(() => Math.random() - .5);
@@ -28,6 +31,8 @@ function setNextQuestion() {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
+
+// Question area 
 
 function showQuestion(question) {
     questionElement.innerText = question.question;
@@ -52,6 +57,8 @@ function resetState(){
     }
 
 }
+// Selected Answer
+//  Hide buttons when playing 
 
 function selectAnswer(e) {
     const selectedButton = e.target;
@@ -60,20 +67,19 @@ function selectAnswer(e) {
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct);
     });
-    nextButton.classList.remove('hide');
-    
     if (shuffledQuestions.lenght > currentQuestionIndex + 1) {
         nextButton.classList.remove('hide');
-
-
+        
     } else {
         startButton.innerText = 'Restart';
         startButton.classList.remove('hide');
-
     }
     
     
 }
+
+// Increment score. add 2 for the correct and 1 for the wrong answer 
+// change the color to identify correct or wrong 
 
 function setStatusClass(element, correct) {
     clearStatusClass(element);
@@ -90,22 +96,13 @@ function incrementScore() {
     document.getElementById('correct').innerText = ++oldScore;
 }
 
-function incrementWrongAnswer() {
-
-    let oldScore = parseInt(document.getElementById("incorrect").innerText);
-    document.getElementById("incorrect").innerText = ++oldScore;
-    
-}
-
-
-
-
-function clearStatusClass(element){
+function clearStatusClass(element) {
     element.classList.remove('correct');
     element.classList.remove('wrong');
 
 }
 
+/** Quesion section 15 total questions */
 
 const questions = [
     {
