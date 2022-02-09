@@ -42,7 +42,7 @@ function showQuestion(question) {
         }
         button.addEventListener('click', selectAnswer);
         answerButtonsElement.appendChild(button);
-    })
+    });
 
 }
 
@@ -71,7 +71,7 @@ function selectAnswer(e) {
 
 
     } else {
-        startButton.innerText = 'Restart'
+        startButton.innerText = 'Restart';
         startButton.classList.remove('hide');
 
     }
@@ -247,4 +247,4 @@ const questions = [
              {text: 'Eatting', correct: true} 
         ]
     }
-]
+];

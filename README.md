@@ -26,7 +26,7 @@ Design choices:
 Typography:
 The fonts chosen were inspiered by tron 'Orbitron' for the main game. using the one across the quiz. They fall back to sans-serif respectively.
 
-'Orbitron' was chosen for the game to give the user an inital welcoming feel. The retro vibe of the front give off an old school game vibe, evoking  nolstalgic feeling.
+'Orbitron'  geometric sans-serif typeface intended for display purposes, was chosen for the game to give the user an inital welcoming feel. The retro vibe of the front give off an old school game vibe, evoking  nolstalgic feeling.
 
 
 Colour Scheme:
