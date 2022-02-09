@@ -193,3 +193,18 @@ background: greenyellow;
         top: 40px;
     }
 }
+
+@media screen and (max-width:350px) {
+    .box{
+        width: fit-content;
+        height: fit-content;
+    }
+    .btn {
+        font-size: 20px;
+        width: 100px;
+    }
+    h1 {
+        font-size: 25px;
+        top: 40px;
+    }
+}

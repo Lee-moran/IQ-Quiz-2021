@@ -116,7 +116,7 @@ footer {
 }
 
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:800px) {
     
     
    h1{
@@ -141,6 +141,32 @@ footer {
      
  
  }
+
+ @media screen and (max-width:400px) {
+    
+    
+    h1{
+        font-size: 35px;
+    }
+    .btn1{
+        width: 220px;
+    }
+     
+ 
+ }
+ @media screen and (max-width:350px) {
+    
+    
+    h1{
+        font-size: 30px;
+    }
+    .btn1{
+        width: 180px;
+    }
+     
+ 
+ }
+
 
 
 
