@@ -14,8 +14,8 @@ nextButton.addEventListener('click', () => {
     setNextQuestion();
 });
 
-// Start Game, hide button and away we go 
-// randomly mixing up the questions everytime 
+// Start Game, hide button and away we go./
+// randomly mixing up the questions everytime./ 
 
 function startGame() {
     startButton.classList.add('hide');
@@ -31,7 +31,7 @@ function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
 
-// Question area 
+// Question area and if statement if correct button will green./  
 
 function showQuestion(question) {
     questionElement.innerText = question.question;
@@ -56,8 +56,8 @@ function resetState(){
     }
 
 }
-// Selected Answer
-//  Hide buttons when playing 
+// Selected Answer./
+// Hide buttons when playing./
 
 function selectAnswer(e) {
     const selectedButton = e.target;
@@ -78,8 +78,7 @@ function selectAnswer(e) {
     
 }
 
-// Increment score. add 2 for the correct and 1 for the wrong answer 
-// change the color to identify correct or wrong 
+// change the color to identify correct or wrong./
 
 function setStatusClass(element, correct) {
     clearStatusClass(element);
@@ -90,6 +89,9 @@ function setStatusClass(element, correct) {
         element.classList.add('wrong');
     }
 }
+
+// Increment score. add 2 for the correct and 1 for the wrong answer./
+// Taken from love maths./
 
 function incrementScore() {
     let oldScore = parseInt(document.getElementById('correct').innerText);
@@ -102,7 +104,7 @@ function clearStatusClass(element) {
 
 }
 
-/** Quesion section 15 total questions */
+// Quesion section 15 total questions./
 
 const questions = [
     {

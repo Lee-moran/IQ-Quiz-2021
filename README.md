@@ -53,6 +53,12 @@ The fonts chosen were inspiered by tron 'Orbitron' for the main game. using the 
 - Giving the page a modern yet retro feel. 
 <img width="942" alt="ColourWay" src="https://user-images.githubusercontent.com/92300148/153240913-0db5cb2b-ac4f-4584-9c8a-e3781801fcaf.png">
 
+# Feel and Look:
+- Overall i wanted to give the user the experience of just a game and no distraction.
+- Hence no use of image etc.
+- I feel the game gives off an old school vibe with a modern color way.
+- Color work well together.
+
 
 # Testing:
 
@@ -75,6 +81,7 @@ The most complex function has a cyclomatic complexity value of 2 while the media
 
 ## Unfixed Bugs:
 None
+Logo wont load on homepage for me.
 
 # Accessibility:
 <img width="724" alt="Accessibility" src="https://user-images.githubusercontent.com/92300148/153258584-e0dfefae-1ee4-4c3c-acc2-eb68970f65ad.png">

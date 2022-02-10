@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@300&display=swap');
 
 
-body{
+body {
     background-color: rgb(47, 69, 92);
 }
 
@@ -35,25 +35,25 @@ h2 {
     margin: 0 auto;
 }
 
-.flex-column{
+.flex-column {
     display: flex;
     flex-direction: column;
 }
 
-.flex-center{
+.flex-center {
     justify-content: center;
     align-items: center;
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
@@ -69,7 +69,7 @@ h2 {
     background: linear-gradient(90deg, rgb(52, 245, 197)0%, rgb(0, 102, 255)110%);
 }
 
-.btn1:hover{
+.btn1:hover {
     cursor: pointer;
     box-shadow: 0 4.6px 16px 0 rgb(255, 251, 0);
     transition: transform 150ms;
@@ -77,27 +77,27 @@ h2 {
 
 }
 
-.btn1[disabled]:hover{
+.btn1[disabled]:hover {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
 
 }
 
-#high-btn{
+#high-btn {
     background:linear-gradient(90deg, rgb(33, 248, 122)0%, rgb(16, 243, 65)110%); 
 }
 
-#high-btn:hover{
+#high-btn:hover {
     box-shadow: 0 4.6px 16px 0 rgb(255, 255, 0);
 
 }
-.fas{
+.fas {
     font-size: 90px;
     margin-left: 5px;
     color: azure;
 }
-.fa-brain{
+.fa-brain {
     font-size: 90px;
     color: white;
 }
@@ -107,8 +107,7 @@ footer {
     background-color: rgba(43, 43, 42, 0.6);
 }
 
-
- a {
+a {
     color: #dba622;
     font-size: 65px;
     margin-inline-end: 10px;
