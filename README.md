@@ -4,8 +4,7 @@
 
 # Wirerframe 
 
-<img width="454" alt="wirerframe" src="https://user-images.githubusercontent.com/92300148/153261103-66784b8f-91dc-4f3e-9ec2-4767a4b48379.png">
-<img width="411" alt="wirerframe1" src="https://user-images.githubusercontent.com/92300148/153261280-580be5f9-2849-4b45-97e9-210baeb2f2b0.png">
+<img width="454" alt="wirerframe" src="https://user-images.githubusercontent.com/92300148/153261103-66784b8f-91dc-4f3e-9ec2-4767a4b48379.png"> <img width="411" alt="wirerframe1" src="https://user-images.githubusercontent.com/92300148/153261280-580be5f9-2849-4b45-97e9-210baeb2f2b0.png">
 
 # Home Page
 - Consists of a question, 2 buttons and a logo(brian)
@@ -51,6 +50,7 @@ The fonts chosen were inspiered by tron 'Orbitron' for the main game. using the 
 - The colour scheme chosen is one based on colors of IQ, calming, relaxing. 
 - Using a plate that that blends well together. A balance between colors.
 - Giving the page a modern yet retro feel. 
+
 <img width="942" alt="ColourWay" src="https://user-images.githubusercontent.com/92300148/153240913-0db5cb2b-ac4f-4584-9c8a-e3781801fcaf.png">
 
 # Feel and Look:
@@ -65,9 +65,11 @@ The fonts chosen were inspiered by tron 'Orbitron' for the main game. using the 
 ## Validator testing: 
 - HTML
 No errors were returned when passing through the official W3C validator
+
 <img width="1279" alt="HTMLcheck" src="https://user-images.githubusercontent.com/92300148/153257994-22a70d42-745c-42a3-8c98-482208a483fe.png">
 - CSS
 No errors were found when passing through the official (Jigsaw) validator
+
 <img width="1277" alt="csscheck" src="https://user-images.githubusercontent.com/92300148/153258171-e9382ee1-3348-4267-b5de-4bcc1b3b3562.png">
 
 ## JavaScript:
